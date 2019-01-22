@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "turtleapp",
+    "builds": [  
+        { 
+            "src": "index.js", 
+            "use": "@now/node-server" 
+        }
+    ],
+    "routes": [
+        { 
+            "src": "/api/product", 
+            "dest": "controllers/product.js" 
+        }
+    ]
+}

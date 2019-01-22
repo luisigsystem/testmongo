@@ -1,5 +1,5 @@
 {
-  "name": "api-rest",
+  "name": "tuttleapp",
   "version": "1.0.0",
   "description": "Proyectode API RESfulcon Node.js y Express de LV",
   "main": "index.js",
@@ -12,7 +12,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "mongoose": "^5.4.4"
+    "mongoose": "^5.4.5"
   },
   "devDependencies": {
     "nodemon": "^1.18.9"

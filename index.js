@@ -8,9 +8,13 @@ mongoose.connect(config.db, { useNewUrlParser: true }, (err, res) => { /** Conec
     if (err) {
         console.log(`- Error al conectar con la base de datos nosql ${err} -`)
     }
-    console.log('- Conexion a la base de datos nosql -')
+    console.log('- Conexion a la base de datos nosql :))) -')
 
     app.listen(config.port, () => { /** port, () => { ___ es lo mismo que___ port, function() { */
         console.log(`API REST corriendo en http://localhost:${config.port}`)  
     }) 
 })  
+
+module.exports = (req, res) => {
+    res.end(`Hola desde Node.js en Now 2.0!`);    
+};
